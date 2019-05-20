@@ -12,6 +12,7 @@
   height: 100vh;
 }
 .top-copy {
+  margin-top: 40vh;
   width: 50vw;
 }
 @media (max-width: 800px) {
