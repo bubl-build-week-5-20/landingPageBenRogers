@@ -22,9 +22,6 @@
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Donwload</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   About
@@ -41,8 +38,16 @@
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Find My School" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <div class="form-group">
+                <label class="school-select-label mx-2" for="SchoolSelect">Find my School:</label>
+                <select class="form-control" id="SchoolSelect">
+                  <option>De Zavala MS</option>
+                  <option>Alice Contreras MS</option>
+                  <option>MLK MS</option>
+                  <option>Jefferson MS</option>
+                  <option>Ada Lovelace MS</option>
+                </select>
+              </div>
             </form>
             <button class="btn btn-success m-2 m-sm-2" type="menu">Login</button>
           </div>
