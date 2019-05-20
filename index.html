@@ -12,46 +12,50 @@
   </head>
   <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Bubl</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Check Availibility</a>
-                  <a class="dropdown-item" href="#">Recommend My School</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">School Administration</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">About App</a>
-                  <a class="dropdown-item" href="#">Developers</a>
-                </div>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <div class="form-group">
-                <label class="school-select-label mx-2" for="SchoolSelect">Find my School:</label>
-                <select class="form-control" id="SchoolSelect">
-                  <option>De Zavala MS</option>
-                  <option>Alice Contreras MS</option>
-                  <option>MLK MS</option>
-                  <option>Jefferson MS</option>
-                  <option>Ada Lovelace MS</option>
-                </select>
+        <!-- logo -->
+        <a class="navbar-brand" href="#">Bubl</a> 
+        <!-- mobile toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- start navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Check Availibility</a>
+                <a class="dropdown-item" href="#">Recommend My School</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">School Administration</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">About App</a>
+                <a class="dropdown-item" href="#">Developers</a>
               </div>
-            </form>
-            <button class="btn btn-success m-2 m-sm-2" type="menu">Login</button>
-          </div>
-        </nav>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="form-group">
+              <label class="school-select-label mx-2" for="SchoolSelect">Find my School:</label>
+              <select class="form-control" id="SchoolSelect">
+                <option value="default">(select from list)</option>
+                <option>De Zavala MS</option>
+                <option>Alice Contreras MS</option>
+                <option>MLK MS</option>
+                <option>Jefferson MS</option>
+                <option>Ada Lovelace MS</option>
+              </select>
+              <button class="btn btn-outline-primary m-2 my-sm-0">choose</button>
+            </div>
+          </form>
+          <button class="btn btn-success my-sm-2 ml-5" type="menu">Login</button>
+        </div> <!-- End navbar collapse -->
+      </nav>
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
