@@ -1,0 +1,18 @@
+.jumbotron {
+  background-image: url("../assets/kelli-tungay-324329-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-content {
+  height: 50vh;
+}
+.top-copy {
+  width: 50vw;
+}
+@media (max-width: 800px) {
+  .top-copy {
+    width: 80vw;
+  }
+}
