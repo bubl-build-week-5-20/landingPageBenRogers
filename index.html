@@ -13,7 +13,7 @@
   <body>
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <!-- logo -->
-        <a class="navbar-brand mr-5" href="#"><img class="logo" src="assets/bubLogo003.svg" alt="Bubl Logo"></a> 
+        <a class="navbar-brand mr-5" href="#">Bubl</a> 
         <!-- mobile toggle -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About
               </a>
@@ -37,34 +37,42 @@
                 <a class="dropdown-item" href="#">About App</a>
                 <a class="dropdown-item" href="#">Developers</a>
               </div>
-            </li>
+            </li> -->
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <div class="form-group">
-              <label class="school-select-label mx-2" for="SchoolSelect">Find my School:</label>
-              <select class="form-control" id="SchoolSelect">
-                <option value="default">(select from list)</option>
-                <option>De Zavala MS</option>
-                <option>Alice Contreras MS</option>
-                <option>MLK MS</option>
-                <option>Jefferson MS</option>
-                <option>Ada Lovelace MS</option>
-              </select>
-              <button class="btn btn-outline-primary m-2 my-sm-0">choose</button>
-            </div>
-          </form>
           <button class="btn btn-success my-sm-2 ml-5" type="menu">Login</button>
         </div> <!-- End navbar collapse -->
       </nav>
 
     <main>
       <section class="top-content jumbotron mt-5">
-        <div class="top-copy float-right">
+        <div class="container top-copy float-right">
           <h1>Welcome to Bubl</h1>
           <p>New Schools can be scary, bubl gives you the chance to find friends on your own terms.</p>
           <button class="btn btn-primary">Learn More</button>
+          <button class="btn btn-success my-sm-2 ml-5" type="menu">Login</button>
         </div>
       </section>
+      <!-- <section class="school-lookup jumbotron mt-5">
+        <div class="container">
+          <form class="form-inline my-2 my-lg-0">
+              <div class="form-group">
+                <label class="school-select-label mx-2" for="SchoolSelect">Find my School:</label>
+                <select class="form-control" id="SchoolSelect">
+                  <option value="default">(select from list)</option>
+                  <option>De Zavala MS</option>
+                  <option>Alice Contreras MS</option>
+                  <option>MLK MS</option>
+                  <option>Jefferson MS</option>
+                  <option>Ada Lovelace MS</option>
+                </select>
+                <button class="btn btn-outline-primary m-2 my-sm-0">choose</button>
+              </div>
+            </form>
+        </div>
+        <div class="container">
+          <img src="assets/undraw_pizza_sharing_wxop.svg" alt="friends together">
+        </div>
+      </section> -->
     </main>
     <!-- TODO credit each photographer -->
 
