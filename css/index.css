@@ -1,3 +1,6 @@
+.logo {
+  height: 50px;
+}
 .jumbotron {
   background-image: url("../assets/kelli-tungay-324329-unsplash.jpg");
   background-attachment: fixed;
@@ -6,7 +9,7 @@
   background-size: cover;
 }
 .top-content {
-  height: 85vh;
+  height: 100vh;
 }
 .top-copy {
   width: 50vw;
