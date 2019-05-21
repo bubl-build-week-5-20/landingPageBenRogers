@@ -21,4 +21,24 @@
   }
 }
 
+
+// TODO fix hever states;
+.btn-primary, {
+  color: #fff;
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-success {
+  color: #fff;
+  background-color: var(--success);
+  border-color: var(--success);
+}
+
+
+:root {
+  --primary: #2fb8be;
+  --success: #bdd13e;
+}
+
 // @import 'components/ContentTabs/contentTabs';
