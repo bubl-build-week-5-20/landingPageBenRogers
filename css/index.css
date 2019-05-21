@@ -1,6 +1,11 @@
+:root {
+  --primary: #2fb8be;
+  --success: #bdd13e; }
+
 .jumbotron {
   width: 100%;
   height: 95vh;
+  margin: 0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +24,7 @@
   background-image: url("../assets/undraw_professor_8lrt.svg"); }
 
 .tab-copy {
-  margin-top: 40vh;
+  margin-top: 30vh;
   width: 50vw;
   background-color: rgba(237, 237, 237, 0.75);
   padding: 8px; }
@@ -37,9 +42,5 @@
   color: #fff;
   background-color: var(--success);
   border-color: var(--primary); }
-
-:root {
-  --primary: #2fb8be;
-  --success: #bdd13e; }
 
 /*# sourceMappingURL=index.css.map */
