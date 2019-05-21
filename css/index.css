@@ -25,7 +25,7 @@
 .btn-success {
   color: #fff;
   background-color: var(--success);
-  border-color: var(--success); }
+  border-color: var(--primary); }
 
 :root {
   --primary: #2fb8be;
