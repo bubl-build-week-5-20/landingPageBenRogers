@@ -35,12 +35,20 @@
 
 .btn-primary {
   color: #fff;
-  background-color: var(--primary);
-  border-color: var(--primary); }
+  background-color: #2fb8be;
+  border-color: #bdd13e; }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #279a9f;
+    border-color: #2fb8be; }
 
 .btn-success {
   color: #fff;
-  background-color: var(--success);
-  border-color: var(--primary); }
+  background-color: #bdd13e;
+  border-color: #2fb8be; }
+  .btn-success:hover {
+    color: #fff;
+    background-color: #a8bc2d;
+    border-color: #bdd13e; }
 
 /*# sourceMappingURL=index.css.map */
