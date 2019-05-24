@@ -18,6 +18,7 @@ class NavLink {
   select() {
     // Get all of the elements with the tabs-link class
     // Using a loop or the forEach method remove the 'active' class from all of the links
+    // Close the hamburger menu by removing 'show' class
     // Add a class named "active" to this link
     // Call the select method on the item associated with this link
     const links = document.querySelectorAll(".nav-link");
