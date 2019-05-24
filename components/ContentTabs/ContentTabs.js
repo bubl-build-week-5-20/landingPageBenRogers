@@ -21,7 +21,9 @@ class NavLink {
     // Add a class named "active" to this link
     // Call the select method on the item associated with this link
     const links = document.querySelectorAll(".nav-link");
+    const burger = document.querySelector(".navbar-collapse");
     links.forEach(link => link.classList.remove("active"));
+    burger.classList.remove("show");
     this.element.classList.add("active");
     this.navItem.select();
   }
